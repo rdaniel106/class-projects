@@ -50,6 +50,21 @@ body {
          color: black;
          text-align: center;
      }
+     main h3 {
+         color: white;
+     }
+     main h3 a {
+         color: white;
+     }
+     main h3 a:visited {
+         color: white;
+         text-decoration: none;
+
+         main h3 a:hover {
+             color: black;
+             text-decoration: none;
+         }
+     }
 
      main img {
          display: block;
