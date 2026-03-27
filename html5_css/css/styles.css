@@ -1,12 +1,12 @@
 body {
-    background-color:darkgrey;
+    background-color:#037F8C;
      }
 
      #container {
-         background-color:white;
+         background-color:#013A40;
          width: 950px;
          margin: 20px auto;
-         border: 4x solid black;
+         border: 4x solid #222326;
          padding: 20px;
          border-radius: 20px;
      }
@@ -17,14 +17,14 @@ body {
      }
 
      header h1 {
-         color: black;
+         color: #037F8C;
          font-size: 30px;
      }
 
      nav {
          text-align: center;
-         border-top: 4px solid white;
-         border-bottom: 4px solid white;
+         border-top: 4px solid #037F8C;
+         border-bottom: 4px solid black;
          padding: 20px 0;
      }
 
@@ -41,7 +41,7 @@ body {
 
      main {
          margin: 20px auto;
-         border: 4px solid white;
+         border: 4px solid #037F8C;
             padding: 20px;
             border-radius: 20px;
      }
@@ -61,5 +61,5 @@ body {
      footer {
          padding: 40px 0;
          text-align: center;
-         border-top: 4px solid black;
+         border-top: 4px solid #037F8C;
      }
