@@ -1,0 +1,129 @@
+body {
+    background-color: #3C4475;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height:auto;
+}
+a {
+    color: #D95F76;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E3CFB4;
+    text-decoration: none;
+}
+
+#container {
+    background-color: #0D0D0D;
+    width: 70%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 4px solid #D95F76;
+    padding: 20px;
+    border-radius: 20px;
+}
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 2px solid #D95F76;
+}
+header h1{
+    font-size: 50px;
+    color: #E3CFB4;
+}
+nav {
+    text-align: center;
+    border-bottom: 2px solid #E3CFB4;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav li a {
+    display: block;
+    background-color: #D95F76;
+    color: #0D0D0D;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #E3CFB4;
+}
+nav li a:hover {
+    color: #3C4475;
+    background-color: #E3CFB4;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+section {
+    flex: 2;
+    min-width: 300px;
+    border-radius: 20px;
+    border: 2px solid #E3CFB4;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+asides {
+    flex: 1;
+    min-width: 200px;
+    border-radius: 20px;
+    border: 2px solid #E3CFB4;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #E3CFB4;
+}
+main h3 {
+    color: #E3CFB4;
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 20px;
+
+}
+ul.info-links li {
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 2px solid #E3CFB4;
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+section,aside {
+    margin-bottom: 30px;
+}   
