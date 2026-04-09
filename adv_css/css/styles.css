@@ -71,7 +71,6 @@ nav li a:hover {
 }
 
 main {
-    display: flex;
     gap: 20px;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -138,21 +137,7 @@ footer {
     padding: 40px 0;
     text-align: center;
 }
-@media (max-width: 768px)  {
-     main {
-         flex-direction: column;
-         gap: 10px;
-     }
 
-section,aside {
-    flex-grow: 1;
-    flex-basis: 100%;
-    min-width: 100%;
-}  
-section, aside {
-    margin-bottom: 30px ;
-    }
-}
 .image-selection {
     display: flex;
     justify-content: center;
@@ -165,3 +150,6 @@ section, aside {
     width: 80%;
     height: auto;
     }
+.multi_col {
+    display: flex;
+}
