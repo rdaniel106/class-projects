@@ -149,3 +149,10 @@ hr {
         margin: 10px;
         }
         }
+        #container main{
+            text-align: center;
+        }
+        ul {
+        list-style-position: inside;
+        padding-left: 0;
+            }
